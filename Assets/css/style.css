@@ -1,0 +1,121 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+/* Latar Header */
+    .latar-header{
+        width: 100%;
+
+        background-image: url('https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg?semt=ais_hybrid');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+/* Latar Header */
+
+
+/* Navbar START */
+    header{
+        width: 100%;
+    }
+
+    header nav{
+        padding: 20px;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li{
+        list-style-type: none;
+        align-content: center;
+    }
+
+        /* Judul */
+        header nav ul li .judul{
+            color: white;
+            font-weight: 700;
+        }
+        /* Judul */
+
+
+        /* Link */
+            header nav ul li a{
+                color: rgb(207, 207, 207);
+                text-decoration: none;
+                margin: 10px;
+            }
+
+
+        /* Link */
+/* Navbar END */
+
+/* Hero START */
+    .hero{
+        width: 100%;
+    }
+
+    .hero .container{
+        padding: 10px;
+    }
+
+    .hero .container ul{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .hero .container ul .flex{
+        margin: 50px auto;
+        padding: 10px;
+    }
+
+        /* Tags */
+            .hero .container ul .tags{
+                display: flex;
+            }
+
+            .hero .container ul .tags p{
+                color: #fff;
+                font-weight: 700;
+                background-color: #b6b6b66c;
+
+                padding: 6px;
+                border-radius: 6px;
+
+                margin-right: 10px;
+            } 
+        /* Tags */
+
+        /* Judul */
+            .hero .container ul .flex .judul-hero{
+                font-size: 2rem;
+                color: #fff;
+
+                margin: 20px 0;
+            }
+        /* Judul */
+
+        /* History */
+            .hero .container ul .flex .history{
+                color: rgba(255, 255, 255, 0.658);
+                font-size: 1rem;
+            }
+
+                .hero .container ul .flex .history .group{
+                    display: flex;
+                }
+                
+                .hero .container ul .flex .history .group p{
+                    margin: 0 20px 10px 0;
+                }
+        /* History */
+/* Hero END */
