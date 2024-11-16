@@ -15,6 +15,10 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+        .latar-header-container{
+            background-color: rgba(0, 0, 0, 0.308);
+        }
 /* Latar Header */
 
 
@@ -119,3 +123,259 @@ body{
                 }
         /* History */
 /* Hero END */
+
+
+
+
+
+
+
+
+/* Latar Main START */
+    .latar-main{
+        background-color: #111014;
+    }
+
+    .latar-main-container{
+        padding: 10px;
+    }
+/* Latar Main END */
+
+
+
+/* Main START */
+    main{
+        width: 100%;
+    }
+
+    main .container{
+        padding: 20px;
+    }
+
+    main .container ul{
+        display: block;
+    }
+
+/* Main END */
+
+        /* Sidebar START */
+            aside{
+                width: 100%;
+                /* background-color: #1D1E22; */
+
+                flex: 1;
+                order: 1;
+            }
+
+            aside .container{
+                padding: 10px;
+            }
+
+                /* Card 1 */
+                aside .container .card-1{
+                    background-color: white;
+                    border-radius: 12px;
+
+                    padding: 20px;
+
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                
+
+                    /* Profile */
+                        aside .container .card-1 img{
+                            min-width: 100px;
+                            max-width: 300px;
+
+                            min-height: 100px;
+                            max-height: 200px;
+                            object-fit: cover;
+
+                            
+                        }
+                    /* Profile */
+
+                    /* Information */
+                        aside .container .card-1 .information{
+                            padding: 10px;
+                            min-width: 100px;
+                            max-width: 200px;
+                        }   aside .container .card-1 .information h3{
+                            font-size: 1.2rem;
+                            margin-bottom: 5px;
+                        }
+
+                            aside .container .card-1 .information .group{
+                                font-size: 14.5px;
+                                padding: 5px;
+                            }
+                    /* Information */
+                /* Card 1 */
+
+
+                /* Card 2 */
+                    .card-2{
+                        width: 100%;
+                        background-color: #fff;
+                        border-radius: 12px;
+
+                        margin-top: 10px;
+                    }
+
+                    .card-2 .container{
+                        padding: 10px;
+                    }
+
+                    .card-2 .container h4{
+                        color: black;
+                        margin: 0 0 0 10px;
+                    }
+                /* Card 2 */
+        /* Sidebar END */
+
+
+
+
+        /* Article START */
+            article{
+                width: 100%;
+                background-color: #1d1e228f;
+
+                flex: 3;
+                order: 2;
+
+                border-radius: 12px;
+            }
+
+            article .container{
+                padding: 20px;
+
+            }
+
+
+                /* About START */
+                    article .container .about{
+                        background-color: #21232A;
+
+                        padding: 20px;
+                        border-radius: 12px;
+                        border: 1px solid rgba(128, 128, 128, 0.582);
+                    }       
+                        /* h2 */
+                            article .container .about h2{
+                                color: #b6b6b6d2;
+                                margin: 0 0 10px 10px;
+                            } 
+                        /* h2 */
+                    
+                    article .container .about ul{
+                        background-color: rgba(0, 0, 0, 0.493);
+                        padding: 20px;
+
+                    }       
+                        /* p */
+                            article .container .about ul p{
+                                color: #b6b6b6d2;
+                                margin: 0 20px 10px 0;
+
+
+                            }
+                        /* p */
+
+
+                        /* img */
+                            article .container .about ul img{
+                                min-width: 50%;
+                                max-width: 100%;
+
+                                min-height: 100px;
+                                max-height: 200px;
+                                object-fit: contain;
+                            }
+                        /* img */
+                /* About END */
+
+
+        /* Article END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive START */
+@media( min-width: 400px){
+
+    main .container{
+    }
+
+
+
+    article .container .about ul img{
+        min-width: 50%;
+        max-width: 100%;
+
+        min-height: 100px;
+        min-height: 50px;
+        object-fit: cover;
+    }
+}
+
+
+@media( min-width: 700px){
+    main .container ul{
+        display: block;
+    }
+}
+@media( min-width: 900px){
+    main .container ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media( min-width: 1200px){
+    main .container{
+        padding: 50px;
+    }
+
+    main .container ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+    article .container{
+        padding: 40px;
+    }
+}
+/* Responsive END */
