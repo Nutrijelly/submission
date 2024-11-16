@@ -526,6 +526,7 @@ body{
                                     article .container .about ul .language-and-tools .language{
                                         display: flex;
                                         justify-content: right;
+                                        flex-wrap: wrap;
                                     }
                                         /* img */
                                             article .container .about ul .language-and-tools .language img{
@@ -541,6 +542,7 @@ body{
                                     article .container .about ul .language-and-tools .tools{
                                         display: flex;
                                         justify-content: right;
+                                        flex-wrap: wrap;
                                     }
                                         /* img */
                                         article .container .about ul .language-and-tools .tools img{
