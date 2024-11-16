@@ -211,6 +211,15 @@ body{
                                 font-size: 14.5px;
                                 padding: 5px;
                             }
+
+
+                            /* Link */
+                                aside .container .card-1 .information .group a{
+                                    color: black;
+                                } aside .container .card-1 .information .group a:hover{
+                                    opacity: 50%;
+                                }
+                            /* Link */
                     /* Information */
                 /* Card 1 */
 
