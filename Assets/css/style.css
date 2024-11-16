@@ -251,6 +251,7 @@ body{
                         border-radius: 12px;
 
                         margin-top: 10px;
+
                     }
 
                     .card-3 .container{
@@ -447,7 +448,6 @@ body{
 
             article .container{
                 padding: 20px;
-
             }
 
 
@@ -461,7 +461,7 @@ body{
                     }       
                         /* h2 */
                             article .container .about h2{
-                                color: #b6b6b6d2;
+                                color: #fff;
                                 margin: 0 0 10px 10px;
                             } 
                         /* h2 */
@@ -470,11 +470,26 @@ body{
                         background-color: rgba(0, 0, 0, 0.493);
                         padding: 20px;
 
-                    }       
+                    }
+                    
+                        article .container ul .group{
+                            min-width: 100px;
+                            max-width: 800px;
+                        }
+
+                        /* h3 */
+                            article .container ul h3{
+                                color: #b6b6b6d2;
+                                font-size: 1.3rem;
+
+                                text-align: left;
+                            }
+                        /* h3 */
+
                         /* p */
                             article .container .about ul p{
                                 color: #b6b6b6d2;
-                                margin: 0 20px 10px 0;
+                                margin: 10px 20px 10px 0;
 
 
                             }
