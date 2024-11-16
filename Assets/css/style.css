@@ -523,12 +523,27 @@ body{
                                     padding: 10px;
                                 }
 
-                                article .container .about ul .language-and-tools .language{
-                                    display: flex;
-                                    justify-content: right;
-                                }
-                                    /* img */
-                                        article .container .about ul .language-and-tools img{
+                                    article .container .about ul .language-and-tools .language{
+                                        display: flex;
+                                        justify-content: right;
+                                    }
+                                        /* img */
+                                            article .container .about ul .language-and-tools .language img{
+                                                min-width: 50px;
+                                                max-width: 100px;
+
+                                                min-height: 50px;
+                                                max-height: 50px;
+                                                object-fit: cover;
+                                            }
+                                        /* img */
+                                
+                                    article .container .about ul .language-and-tools .tools{
+                                        display: flex;
+                                        justify-content: right;
+                                    }
+                                        /* img */
+                                        article .container .about ul .language-and-tools .tools img{
                                             min-width: 50px;
                                             max-width: 100px;
 
@@ -536,12 +551,7 @@ body{
                                             max-height: 50px;
                                             object-fit: cover;
                                         }
-                                    /* img */
-                                
-                                    article .container .about ul .language-and-tools .tools{
-                                        display: flex;
-                                        justify-content: right;
-                                    }
+                                        /* img */
 
                             /* Language and  Tools*/
                 /* About END */
