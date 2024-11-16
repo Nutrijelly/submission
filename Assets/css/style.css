@@ -510,6 +510,40 @@ body{
                                 object-fit: contain;
                             }
                         /* img */
+
+                            /* Language and  Tools*/
+                                    /* h3 */
+                                        article .container .about ul  h3{
+                                            color: #b6b6b6d2;
+                                        }
+                                    /* h3 */
+
+
+                                article .container .about ul .language-and-tools{
+                                    padding: 10px;
+                                }
+
+                                article .container .about ul .language-and-tools .language{
+                                    display: flex;
+                                    justify-content: right;
+                                }
+                                    /* img */
+                                        article .container .about ul .language-and-tools img{
+                                            min-width: 50px;
+                                            max-width: 100px;
+
+                                            min-height: 50px;
+                                            max-height: 50px;
+                                            object-fit: cover;
+                                        }
+                                    /* img */
+                                
+                                    article .container .about ul .language-and-tools .tools{
+                                        display: flex;
+                                        justify-content: right;
+                                    }
+
+                            /* Language and  Tools*/
                 /* About END */
 
 
