@@ -447,7 +447,8 @@ body{
             }
 
             article .container{
-                padding: 20px;
+                padding: unset;
+                /* padding: 20px; */
             }
 
 
@@ -455,9 +456,11 @@ body{
                     article .container .about{
                         background-color: #21232A;
 
-                        padding: 20px;
+                        padding: unset;
+                        /* padding: 20px; */
                         border-radius: 12px;
                         border: 1px solid rgba(128, 128, 128, 0.582);
+                        overflow: hidden;
                     }       
                         /* h2 */
                             article .container .about h2{
@@ -468,6 +471,7 @@ body{
                     
                     article .container .about ul{
                         background-color: rgba(0, 0, 0, 0.493);
+                        /* padding: unset; */
                         padding: 20px;
 
                     }
@@ -478,7 +482,7 @@ body{
                         }
 
                         /* h3 */
-                            article .container ul h3{
+                            article .container ul .group h3{
                                 color: #b6b6b6d2;
                                 font-size: 1.3rem;
 
@@ -487,7 +491,7 @@ body{
                         /* h3 */
 
                         /* p */
-                            article .container .about ul p{
+                            article .container .about ul .group p{
                                 color: #b6b6b6d2;
                                 margin: 10px 20px 10px 0;
 
@@ -536,6 +540,19 @@ body{
 @media( min-width: 400px){
 
     main .container{
+        padding: unset;
+    }
+
+    article .container{
+        padding: 20px;
+    }
+
+    article .container .about{
+        padding: 20px;
+    }
+    
+    article .container .about ul{
+        padding: 20px;
     }
 
 
