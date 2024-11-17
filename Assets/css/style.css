@@ -164,7 +164,7 @@ body{
                 /* background-color: #1D1E22; */
 
                 flex: 1;
-                order: 1;
+                order: 2;
             }
 
             aside .container{
@@ -180,6 +180,7 @@ body{
 
                     display: flex;
                     justify-content: center;
+
                 }
                 
                 
@@ -441,7 +442,7 @@ body{
                 background-color: #1d1e228f;
 
                 flex: 3;
-                order: 2;
+                order: 1;
 
                 border-radius: 12px;
             }
@@ -559,7 +560,149 @@ body{
                 /* About END */
 
 
+
+
+
+
+
+
+                /* Gallery START */
+                article .container .gallery{
+                    background-color: #21232A;
+
+                    padding: unset;
+                    /* padding: 20px; */
+                    border-radius: 12px;
+                    border: 1px solid rgba(128, 128, 128, 0.582);
+                    overflow: hidden;
+
+                    margin: 40px 0 40px 0;
+                }       
+                    /* h2 */
+                        article .container .gallery h2{
+                            color: #fff;
+                            margin: 0 0 10px 10px;
+                        } 
+                    /* h2 */
+                
+                article .container .gallery ul{
+                    background-color: rgba(0, 0, 0, 0.493);
+                    /* padding: unset; */
+                    padding: 20px;
+
+                }
+                
+                    article .container .gallery ul .group{
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                    }
+
+
+
+                        /* Child 1 */
+                            .child-g-1{
+                                background-color: white;
+
+                                padding: 10px;
+                                margin: 10px;
+                            }
+
+                                /* Img */
+                                    .child-g-1 img{
+                                        min-width: 50%;
+                                        max-width: 100%;
+
+                                        min-height: 100px;
+                                        max-height: 400px;
+                                        object-fit: cover;
+
+                                        border: 1px solid black;
+
+                                    }
+                                /* Img */
+
+                            /* Content */
+                                .child-g-1 .content{
+                                        /* 1200 vp */
+                                        min-width: 50%;
+                                        max-width: 100%;
+                                        /* 1200 vp */
+                                        padding: 10px;
+                                }
+                            /* Content */
+                                /* h3 */
+                                    .child-g-1 .content h3{
+                                        color: black;
+                                    }
+                                /* h3 */
+
+                                /* p */
+                                    .child-g-1 .content p{
+                                        color: black;
+                                    }
+                                /* p */
+
+                                /* a */
+                                    .child-g-1 .content a{
+                                        color: black;
+                                        text-decoration: none;
+
+                                        margin: 0 10px 0 0;
+
+                                        transition: all ease-in 210ms;
+                                        float: right;
+                                    }   
+                                    .child-g-1 .content a:hover{
+                                        color: red;
+                                        transition: all ease-in-out 512ms;
+                                    }
+                                    
+                                    
+
+                                    .child-g-1 .content a i{
+                                        color: red;
+                                        font-size: 14px;
+                                        margin: 0 0 0 3px;
+
+                                        transition: all ease-in 510ms;                                    } 
+                                    .child-g-1 .content a:hover i{
+                                        color: black;
+                                        margin: 0 0 0 10px;
+
+                                        transition: all ease-in-out 512ms;                                    }
+                                /* a */
+                        /* Child 1 */
+
+
+
+                /* Gallery END */
+
+
+
         /* Article END */
+
+
+
+/* Footer START */
+footer{
+    width: 100%;
+    background-color: white;
+}
+
+footer .container{
+    padding: 20px;
+}
+
+footer .container ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer .container ul p{
+    color: black;
+}
+/* Footer END */
 
 
 
@@ -593,13 +736,25 @@ body{
         padding: 20px;
     }
 
-    article .container .about{
-        padding: 20px;
-    }
-    
-    article .container .about ul{
-        padding: 20px;
-    }
+    /* About */
+        article .container .about{
+            padding: 20px;
+        }
+        
+        article .container .about ul{
+            padding: 20px;
+        }
+    /* About */
+
+    /* Gallery */
+        article .container .gallery{
+            padding: 20px;
+        }
+        
+        article .container .gallery ul{
+            padding: 20px;
+        }
+    /* Gallery */
 
 
 
@@ -625,6 +780,11 @@ body{
         justify-content: center;
         flex-wrap: wrap;
     }
+
+
+
+
+
 }
 
 
@@ -641,8 +801,12 @@ body{
 
 
 
+    /* Article */
+        aside .container{
+            position: sticky;
+        }
 
-
+    /* Article */
 
 
 
@@ -650,6 +814,22 @@ body{
 
     article .container{
         padding: 40px;
+    }
+
+
+
+
+
+
+
+    .child-g-1 .content{
+        min-width: 100px;
+        max-width: 300px;
+    }
+
+    .child-g-1 img{
+        min-width: 100px;
+        max-width: 300px;
     }
 }
 /* Responsive END */
